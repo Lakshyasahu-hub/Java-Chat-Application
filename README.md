@@ -30,14 +30,13 @@ javac *.java
 ```
 2. Start the server (Terminal 1):
 ```
-java ChatServer
+java ChatServer 6000
 ```
 3. Start one client per terminal (Terminal 2, 3, ...):
 ```
-java ChatClient
+java ChatClient localhost 6000
 ```
-To use another computer on the same Wi-Fi: `java ChatClient <server-ip> 5000`
-To use another port: `java ChatServer 6000` and `java ChatClient localhost 6000`
+To use another computer on the same Wi-Fi: java ChatClient <server-ip> 6000
 
 ## Commands
 | Command | What it does |
