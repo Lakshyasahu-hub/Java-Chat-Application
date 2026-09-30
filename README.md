@@ -48,7 +48,9 @@ To use another port: `java ChatServer 6000` and `java ChatClient localhost 6000`
 | `/quit` | Leave the chat |
 
 ## Screenshots
-![Chat demo](chat-demo.png)
+   ![Server started](chat-demo.png)
+   ![Two users chatting](chat-demo2.png)
+   ![Private message](chat-demo3.png)
 
 ## Author
 Lakshya Sahu - [LinkedIn](https://www.linkedin.com/in/lakshya-825-sahu) | [LeetCode](https://leetcode.com/u/Lakshya62/)
